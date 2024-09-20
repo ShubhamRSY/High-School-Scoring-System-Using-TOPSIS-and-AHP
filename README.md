@@ -50,6 +50,10 @@ To run the code and reproduce the results, you need to install the following Pyt
 - `matplotlib`
 - `seaborn`
 
+How to Use the Code
+Clone the repository:
+
+
 You can install the required libraries using the following command:
 
 ```bash
