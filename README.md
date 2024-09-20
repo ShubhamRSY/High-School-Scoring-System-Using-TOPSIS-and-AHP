@@ -59,3 +59,7 @@ You can install the required libraries using the following command:
 ```bash
 pip install -r requirements.txt
 
+git clone https://github.com/your-username/high-school-scoring-system.git
+cd high-school-scoring-system
+
+
