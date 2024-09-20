@@ -61,6 +61,33 @@ pip install -r requirements.txt
 
 git clone https://github.com/your-username/high-school-scoring-system.git
 cd high-school-scoring-system
+```
 
 2.Prepare the environment: Ensure you have Python 3.x installed along with the necessary dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
+3.Run the Jupyter Notebook: Open the UCONN_GROUP_2.ipynb notebook to explore the data analysis, feature selection, and high school scoring process.
+```bash
+jupyter notebook UCONN_GROUP_2.ipynb
+```
+4.View Results: The notebook includes code to visualize the results, including histograms, heatmaps, and score rankings. Ensure you have all the necessary datasets in the data folder for the code to work.
+
+Data Preparation and Preprocessing
+*Data is loaded from CSV files using pandas.
+*Missing values and outliers are handled through exploratory data analysis.
+*Data is standardized before applying clustering and scoring models.
+*Features such as total enrollment, proximity, and academic level are calculated and engineered for model input.
+Scoring Algorithm
+*AHP is used to calculate the relative importance (weights) of each feature.
+*TOPSIS is applied to calculate a score for each high school based on these weights.
+*The final scores are presented in both tabular and visual formats for better interpretation.
+Future Work
+*Extend the scoring system by adding more factors and refining the AHP weight calculation.
+*Automate the distance calculation using geolocation APIs for more accurate proximity metrics.
+*Incorporate feedback from admissions experts to refine the decision-making framework.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
