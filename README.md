@@ -51,7 +51,7 @@ To run the code and reproduce the results, you need to install the following Pyt
 - `seaborn`
 
 How to Use the Code
-Clone the repository:
+1. Clone the repository:
 
 
 You can install the required libraries using the following command:
@@ -62,4 +62,5 @@ pip install -r requirements.txt
 git clone https://github.com/your-username/high-school-scoring-system.git
 cd high-school-scoring-system
 
+2.Prepare the environment: Ensure you have Python 3.x installed along with the necessary dependencies by running:
 
