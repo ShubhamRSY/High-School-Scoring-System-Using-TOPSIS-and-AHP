@@ -32,7 +32,26 @@ AHP is a decision-making framework that helps prioritize various factors. In thi
 
 The pairwise comparison matrix is constructed, and eigenvector methods are used to compute the factor weights. Consistency is ensured using the **Consistency Ratio (CR)**.
 
+
+
 ### 2. TOPSIS Method
 TOPSIS ranks high schools by evaluating how close each school is to the ideal solution (high academic performance, low yield rate, etc.) and how far it is from the worst alternative. Schools with higher proximity to the ideal solution receive a higher score.
 
 ## Project Structure
+
+📦High School Scoring System ┣ 📂data ┃ ┣ 📜Enrollment Status.csv ┃ ┣ 📜Decision Stack.csv ┃ ┗ 📜Landscape_Data.csv ┣ 📂notebooks ┃ ┗ 📜UCONN_GROUP_2.ipynb ┣ 📜README.md ┣ 📜requirements.txt ┗ 📜LICENSE
+
+
+
+## Requirements
+To run the code and reproduce the results, you need to install the following Python libraries:
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+
+You can install the required libraries using the following command:
+
+```bash
+pip install -r requirements.txt
+
